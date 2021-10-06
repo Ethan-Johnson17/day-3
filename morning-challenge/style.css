@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fixture {
+    display: flex;
+flex-direction: column;
+}
+
+.top {
+    height: 65px;
+    width: 55px;
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.main {
+    height: 350px;
+    width: 175px;
+    background-color: rgb(90, 90, 90);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.lights {
+    margin: auto;
+    margin-top: -22em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 360px;
+}
+
+.red {
+    background-color: rgb(218, 30, 30);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.yellow {
+    background-color: rgb(228, 228, 5);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.green {
+    background-color: rgb(25, 175, 63);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.red:hover {
+box-shadow: 0 0 70px pink;
+background-image: url(https://thiscatdoesnotexist.com);
+background-size: cover;
+}
+
+.yellow:hover {
+box-shadow: 0 0 70px yellow;
+background-image: url(https://thiscatdoesnotexist.com);
+background-size: cover;
+}
+
+.green:hover {
+box-shadow: 0 0 70px green;
+background-image: url(https://thiscatdoesnotexist.com);
+background-size: cover;
+}
+
