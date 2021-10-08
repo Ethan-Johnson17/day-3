@@ -1,0 +1,26 @@
+body { 
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+.material-icons {
+    font-size: 48px;
+}
+
+.navButton {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.bg-outdoor {
+    background-image: url(https://s3-alpha-sig.figma.com/img/2926/fb3c/7b2379ec16b2f7cb23b9d28597109cbb?Expires=1634515200&Signature=D~4lkEoncJmR1sThy897kRij3VNuG9XkMJrw1g1pGjtKvppKwgYpEcGt5-91uH1GiuC~j4t5cY0KjJofI3zg6udV6GlfhC~mnnZ1RG5qwvCzJ56auD41NEv6U4MVnEB-Dx8ZFllmc6MGW7UkMCxQGSQGNb6sWIpfipL-4-NR3oD3IMEF6LR7WUQrp~ZYG3qWzWhuC16QGX~Dg8tq-Tz-nbr8PMfml8zQY5gtBFdPGWtfrTurgJLEPlzQppLQGxk9g0L2OTTBjH0IO5grV3nhn19ypnZFeJ1ACi1QckSq33xLVqywMiwHVupsg66Zcsme-QTNYfUoZ0n13lyk~NiPIQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-size: cover;
+    background-position: center;
+}
